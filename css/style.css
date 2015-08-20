@@ -1,0 +1,524 @@
+/*
+	CSS from strach
+	By : Bagus Anantavijaya
+	Copyright 2015
+
+*/
+
+body {
+	background-image: url("file:///D:/Ananta%20Files/zzz/images/bg.jpg");
+	background-repeat: repeat-x repeat-y;
+	background-position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 940px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	//background-color: blue;
+}
+
+.header .login {
+	float: right;
+	//background-color: green;
+	padding: 0;
+	padding-right: 40px;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+.header .login ul {
+	margin-top: 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	display: inline-table;
+	//background-color: yellow;
+	margin-bottom: 0;
+}
+
+.header .login ul li {
+	float: left;
+	width: 80px;
+	height: 38px;
+	text-align: center;
+	line-height: 23px;
+	padding: 0 0 0 0;
+	margin:auto;
+	//font-family: Lato;
+	font-family: Segoe UI;
+	font-size: 12pt;
+	font-weight: 500;
+
+}
+
+.header .login ul li a {
+	padding-top: 10px;
+	display: block;
+	text-decoration: none;
+	height: 32px;
+	background-color: white;
+}
+
+.header .login ul li a:hover {
+	color: #e3e3e3;
+}
+
+/*
+	---------------------------------------------------	SEARCH ----------------------------------------
+*/
+
+.search {
+	font-family: Segoe UI;
+	width: 100%;
+	position:relative;
+	padding: 0;
+	margin-left: 0;
+	background-color:#898183;
+	height:42px;
+}
+
+.search .navBody {
+	padding-top: 0px;
+	width: 940px;
+	margin: 0 auto;
+	background-color: blue;
+}
+
+.search .navBody .nav {
+	float: left;
+	text-align: left;
+	//background-color: yellow;
+	width: 700px;
+}
+
+.search .navBody .nav ul {
+	font-size: 12pt;
+	font-weight: 600;
+	margin: 0 0 0 0;
+	padding-left: 0;
+	list-style: none;
+	display: inline-table;
+}
+
+.search .navBody .nav ul li {
+	float: left;
+	width: 130px;
+	height: 38px;
+	text-align: center;
+	line-height: 23px;
+	padding: 0 0 0 0;
+	margin:auto;
+
+}
+
+.search .navBody .nav ul li a {
+	padding-top: 10px;
+	display: block;
+	text-decoration: none;
+	height: 32px;
+	color: #fff;
+}
+
+.search .navBody .nav ul li a:hover {
+	color: #fff;
+	background-color: #4d4446;
+}
+
+.search .navBody .searchbox {
+	padding-top: 10px;
+	float: right;
+}
+
+/*
+	---------------------------------------------------CONTAINER	----------------------------------------
+*/
+
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	height: auto;
+	//background-color: #e3e3e3;
+}
+
+.container .slider {
+	width: 940px;
+	height: 400px;
+	background-color: #154493;
+	list-style: none;
+	overflow: hidden;
+}
+
+.container .news {
+	width: 940px;
+	height: 580px;
+	//background-color: green;
+}
+
+.container .news .left {
+	//position: relative;
+	width: 600px;
+	height: auto;
+	//background-color: yellow;
+	float: left;
+	padding-top: 0;
+	margin: 0;
+}
+
+.container .news .right {
+	width: 340px;
+	height: auto;
+	//background-color: blue;
+	float: left;
+	padding-top: 0;
+}
+
+/*
+	---------------------------------------------------	CONTAINER -> RIBBON ----------------------------------------
+*/
+
+ .ribbon-wrapper {
+	position: relative;
+}
+  .ribbon-front {
+	background-color: #a0242c;	height: 45px;
+	width: 570px;
+	position: relative;
+	left:-5px;
+	z-index: 2;
+}
+
+  .ribbon-front,
+  .ribbon-back-left,
+  .ribbon-back-right
+{
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright {
+}
+
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright {
+	top: 45px;
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-bottomleft {
+	left: -5px;
+	border-color: transparent #a0242c transparent transparent;
+}
+
+  .ribbon-edge-topleft {
+	top: 0px;
+	border-width: 0px 5px 0 0;
+}
+  .ribbon-edge-bottomleft {
+	border-width: 0 5px 3px 0;
+}
+
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomright {
+	left: 560px;
+	border-color: transparent transparent transparent #a0242c;
+}
+
+  .ribbon-edge-topright {
+	top: 0px;
+	border-width: 0px 0 0 5px;
+}
+  .ribbon-edge-bottomright {
+	border-width: 0 0 3px 5px;
+}
+
+  .ribbon-back-left {
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 0px;
+	height: 45px;
+	background-color: #2b2121;	z-index: 0;
+}
+
+  .ribbon-back-right {
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	width: 0px;
+	height: 45px;
+	background-color: #2b2121;	z-index: 0;
+}
+
+.ribbon-wrapper .ribbon-front h1 {
+	color: #fff;
+	font-family: Segoe UI Semibold;
+	font-size: 16pt;
+	padding-top: 8px;
+	padding-left: 7px;
+}
+
+.leftContent {
+	width: 560px;
+	height: auto;
+	background-color: #e6e7e7;
+	margin: 0;
+	
+	
+}
+
+p, h2, span {
+	font-family: Segoe UI;
+}
+
+/*
+	--------------------------------------------	CONTAINER -> RIBBON LEFT-> RK ------------------------------------
+*/
+
+.leftContent .rk {
+	position: relative;
+	height: 170px;
+	display: inline-table;
+}
+
+.leftContent .rk img {
+	float: left;
+	margin: 12px 5px 0 5px;
+}
+
+.leftContent .rk p {
+	font-size: 10pt;
+	margin-left: 6px;
+}
+
+.leftContent .rk span {
+	font-style: italic;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+.leftContent .rk a {
+	text-decoration: none;
+	color: #000;
+}
+
+.leftContent .rk a:hover {
+	color: #fff;
+}
+
+.leftContent hr {
+	border: none;
+	height: 1px;
+	color: #000;
+	background-color: #000;
+	width: auto;
+	margin: 0 5px ;
+}
+
+/*
+	---------------------------------------------------	CONTAINER -> RIB----------------------------------------
+*/
+
+.rib2 {
+	position: relative;
+	top: 200px;
+}
+
+
+/*
+	---------------------------------------------------	CONTAINER -> RIBBON RIGHT----------------------------------------
+*/
+
+.ribbon-wrapper2 {
+	position: relative;
+}
+  .ribbon-front2 {
+	background-color: #a0242c;	height: 45px;
+	width: 350px;
+	position: relative;
+	left:-5px;
+	z-index: 2;
+}
+
+  .ribbon-front2,
+  .ribbon-back-left2,
+  .ribbon-back-right2
+{
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+  .ribbon-edge-topleft2,
+  .ribbon-edge-topright2,
+  .ribbon-edge-bottomleft2,
+  .ribbon-edge-bottomright2 {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+  .ribbon-edge-topleft2,
+  .ribbon-edge-topright2 {
+}
+
+  .ribbon-edge-bottomleft2,
+  .ribbon-edge-bottomright2 {
+	top: 45px;
+}
+
+  .ribbon-edge-topleft2,
+  .ribbon-edge-bottomleft2 {
+	left: -5px;
+	border-color: transparent #a0242c transparent transparent;
+}
+
+  .ribbon-edge-topleft2 {
+	top: 0px;
+	border-width: 0px 5px 0 0;
+}
+  .ribbon-edge-bottomleft2 {
+	border-width: 0 5px 3px 0;
+}
+
+  .ribbon-edge-topright2,
+  .ribbon-edge-bottomright2 {
+	left: 340px;
+	border-color: transparent transparent transparent #a0242c;
+}
+
+  .ribbon-edge-topright2 {
+	top: 0px;
+	border-width: 0px 0 0 5px;
+}
+  .ribbon-edge-bottomright2 {
+	border-width: 0 0 3px 5px;
+}
+
+  .ribbon-back-left2 {
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 0px;
+	height: 45px;
+	background-color: #2b2121;	z-index: 0;
+}
+
+  .ribbon-back-right2 {
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	width: 0px;
+	height: 45px;
+	background-color: #2b2121;	z-index: 0;
+}
+
+.ribbon-wrapper2 .ribbon-front2 h1 {
+	color: #fff;
+	font-family: Segoe UI Semibold;
+	font-size: 16pt;
+	padding-top: 8px;
+	padding-left: 7px;
+}
+
+/*
+	------------------------------------------	CONTAINER-> RIGHT-> rightContent-------------------------------
+*/
+
+.rightContent {
+	font-family: Segoe UI;
+	width: 340px;
+	height: auto;
+	background-color: #e6e7e7;
+	margin: 0;
+	position: absolute;
+	
+}
+
+.rightContent ul {
+	list-style: none;
+	font-size: 11pt;
+}
+
+.rightContent ul li {
+	margin-top: 12px;
+}
+
+.rightContent ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.rightContent ul li a:hover {
+	color: #fff;
+}
+
+/*
+	---------------------------------------------------	FOOTER----------------------------------------
+*/
+
+.footer {
+	font-family: Segoe UI;
+	color: #fff;
+	width: 100%;
+	bottom: 0px;
+	background-color:#a0242c;
+	height:250px;
+}
+
+.footer .footer2 {
+	width: 940px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.footer .footer2 .floatF {
+	width: 300px;
+	font-size: 10pt;
+	float: left; 	
+}
+
+.footer .footer2 .floatF a {
+	text-decoration: none;
+	color: #fff;	
+}
+
+.footer .footer2 .floatF a:hover {
+	color: #6d6d6d;
+}
+
+
+
+.ribbonFooter {
+	bottom: 0px;
+	width: 100%;
+	position:relative;
+	padding: 0;
+	margin-left: 0;
+	background-color:#2b2121;
+	height:40px;
+}

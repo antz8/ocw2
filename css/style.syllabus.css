@@ -1,0 +1,29 @@
+h3 {
+	color: #3b3b3b;
+}
+
+.centerContent ul li a {
+	text-decoration: none;
+	color: #3b3b3b;
+}
+
+.centerContent ul li a:hover {
+	text-decoration: underline;
+	color: #b6b6b6;
+}
+
+#lists {
+	font-size: 11pt;
+}
+
+#lists tr td a, span > a {
+	text-decoration: none;
+}
+
+#lists tr td a:hover, span > a:hover {
+	color: #1b1b1b;
+}
+
+span {
+	border: 1px solid #3b3b3b;
+}
